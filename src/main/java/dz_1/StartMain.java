@@ -86,10 +86,8 @@ public class StartMain {
         System.out.println(Arrays.toString(array1));
 
         for (int i = 0; i < array1.length; i++) {
-            for (int j = i + 1; j < array1.length; j++) {
-                if (array1[i] == array1[j]) {
-                    System.out.println("Елемент " + i + " дорівнює елементу " + j);
-                }
+            if (array1[i] % 2 == 0) {
+                System.out.println("Елемент " + i + " зі значенням " + array1[i] + " являється парним");
             }
         }
     }
