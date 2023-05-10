@@ -41,6 +41,20 @@ public class StartMain {
         System.out.println('\n');
 
 
+        if (byte1 < 5 | byte1 == 7) {
+            System.out.println("byte1 менший за 5 або дорівнює 7");
+        } else {
+            System.out.println("byte1 більщий за 5 та не дорівнює 7");
+        }
+
+        if (int1 != byte1 & int1 != short1 & byte1 != short1) {
+            System.out.println("int1, short1 та byte1 - мають різне значення");
+        } else {
+            System.out.println("Дві з трьох змінних int1, short1 або byte1 - мають однаковае значення");
+        }
+        System.out.println('\n');
+
+
         if (byte1 < short1) {
             System.out.println("byte1 менше ніж short1");
         } else {
