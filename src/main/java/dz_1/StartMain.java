@@ -16,11 +16,13 @@ public class StartMain {
         char char1 = 7006;
         boolean isJavaVeryInteresting = true;
 
+
         String string1 = new String("String1");
         System.out.println(string1);
         String string2 = "String2";
         System.out.println(string2);
         System.out.println('\n');
+
 
         int result1 = byte1 + short1;
         System.out.println("byte1 + short1 = " + result1);
@@ -55,11 +57,14 @@ public class StartMain {
 
         String stringY = "YES";
         String stringYep = "YEEEEP";
+
         String resultStringYes = (isJavaVeryInteresting) ? stringY : stringYep;
         System.out.println("isJavaVeryInteresting? - " + resultStringYes);
+
         String resultStringYep = (!(isJavaVeryInteresting)) ? stringY : stringYep;
         System.out.println("isJavaVeryInteresting? - " + resultStringYep);
         System.out.println('\n');
+
 
         int num = 1;
         System.out.println(num++);
@@ -74,6 +79,7 @@ public class StartMain {
 
         int[] array1 = new int[10];
         Random randomizer = new Random();
+
         for (int i = 0; i < array1.length; i++) {
             array1[i] = randomizer.nextInt(9);
         }
