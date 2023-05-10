@@ -50,7 +50,7 @@ public class StartMain {
         if (int1 != byte1 & int1 != short1 & byte1 != short1) {
             System.out.println("int1, short1 та byte1 - мають різне значення");
         } else {
-            System.out.println("Дві з трьох змінних int1, short1 або byte1 - мають однаковае значення");
+            System.out.println("Деякі або всі змінні int1, short1 або byte1 - мають однаковае значення");
         }
         System.out.println('\n');
 
